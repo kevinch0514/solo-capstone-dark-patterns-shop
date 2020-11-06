@@ -2,6 +2,34 @@ body {
   background-color: black;
 }
 
+.nav-menu {
+  background-color: #000;
+  color: yellow;
+}
+
+.nav-menu.link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 20px;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-menu.link:hover {
+  text-decoration: underline;
+}
+
+.nav-menu.link:focus {
+  text-decoration: underline;
+}
+
+.nav-menu.link:visited {
+  color: yellow;
+}
+
 #home.container {
   min-height: 100vh;
   display: flex;
@@ -16,11 +44,32 @@ body {
   text-align: center;
 }
 
-#start.box {
+.button {
   background-color: red;
-  padding: 5px;
-  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#choice.button {
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 #fc.container {
@@ -73,16 +122,6 @@ form {
   padding: 10px;
   margin: 10px;
   text-align: center;
-}
-
-#continue.box {
-  background-color: red;
-  width: 20%;
-  padding: 20px;
-  margin: 5px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 input {
